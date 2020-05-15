@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calculator</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--Main css-->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-12">
+            <div class="calc">
+              <form name="caculator">
+                <input name="display" readonly>
+                <br><br>
+                <input type="button" name="" value="Log" onclick="addLog()">
+                <input type="button" name="" value="x2" onclick="addx2()">
+                <input type="button" name="" value="x3" onclick="addx2()">
+                <input type="button" name="" value="Sqrt" onclick="addSqrt()">
+                <br><br>
+                <input type="button" name="" value="Sin" onclick="addSin()"> 
+                <input type="button" name="" value="Cos" onclick="addCos()">
+                <input type="button" name="" value="Tan" onclick="addTan()">
+                <input type="button" name="" value="%" onclick="addMod()">
+                <br><br>
+                <input type="button" name="" value="9" onclick="addNine()">
+                <input type="button" name="" value="8" onclick="addEight()">
+                <input type="button" name="" value="7" onclick="addSeven()">
+                <input type="button" name="" value="+" onclick="addPlus()">
+                <br><br>
+                <input type="button" name="" value="6" onclick="addSix()">
+                <input type="button" name="" value="5" onclick="addFive()">
+                <input type="button" name="" value="4" onclick="addFour()">
+                <input type="button" name="" value="-" onclick="addSub()">
+                <br><br>
+                <input type="button" name="" value="3" onclick="addThree()">
+                <input type="button" name="" value="2" onclick="addTwo()">
+                <input type="button" name="one" value="1" onclick="addOne()">
+                <input type="button" name="" value="*" onclick="addMul()">
+                <br><br>
+                <input type="button" name="" value="0" onclick="addZero()">
+                <input type="button" name="" value="C" onclick="clear()">
+                <input type="button" name="" value="=" onclick="showResult()">
+                <input type="button" name="" value="/" onclick="addDiv()">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

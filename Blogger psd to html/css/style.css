@@ -1,0 +1,238 @@
+/* Global CSS */
+html ,body{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+:root{
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --box-shadow:0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+
+}
+
+.text-gray{
+    color: #3f4954 !important;
+}
+.custom-btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+}
+
+/* Header Section */
+.header-area .main-nav .navbar{
+    padding: 0px 0px;
+    /*height: 10vh;*/
+    background: #ffffff;
+}
+.header-area .main-nav .navbar .navbar-brand{
+    font-weight: 500;
+    padding-left: 1.2rem;
+}
+.navbar-nav .nav-item{
+    padding: 0px 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #3f4954;;
+}
+.navbar-nav .nav-link:hover{
+    color: whitesmoke;
+    background: #104f55;
+}
+.header-area .social{
+    float: right;
+    padding-right: 1.2rem;
+    padding-top: .5rem;
+}
+.header-area .social span{
+    padding: 1rem .4rem;
+}
+.header-area .social span .fa:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+/* Main area Start */
+
+/* Banner Area */
+.main-area .banner-area{
+    background:url(../assets/Background-image.png) no-repeat;
+    height: 110vh;
+    padding-top: 10rem;
+}
+.main-area .banner-area .semi-tag,
+.main-area .banner-area .tag-line{
+    color: whitesmoke;
+}
+.main-area .banner-area .tag-line{
+    padding-bottom: 1.3rem;
+}
+.main-area .banner-area button{
+    background: var(--sky);
+}
+
+.main-area .banner-area button:hover{
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+/* Carousel area */
+.main-area .carousel-area{
+    background: url(../assets/Abract01.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+.main-area .carousel-area .main-carousel{
+    width: 100% !important;
+}
+.carousel-area .container .owl-nav{
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.main-area .carousel-area .main-carousel .blog-post{
+    padding-top: 10rem;
+}
+.main-area .carousel-area .main-carousel .blog-post .blog-content{
+    margin: 0rem 2.2rem;
+    box-shadow: var(--box-shadow);
+}
+.main-area .carousel-area .main-carousel .blog-post .blog-content .blog-title{
+    padding: 2.5rem 1.2rem;
+}
+.main-area .carousel-area .main-carousel .blog-post .blog-content .blog-title h3{
+    font-size: 1.3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.main-area .carousel-area .main-carousel .blog-post .blog-content .blog-title .btn-blog{
+    background: var(--sky);
+    padding: 0.5rem 2rem;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+}
+.main-area .carousel-area .main-carousel .blog-post .blog-content .blog-title span{
+    text-align: center;
+    display: block;
+    padding-top: .3rem;
+}
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: gray;
+    background: transparent;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: black
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+
+/* Blog Area */
+.main-area .blog-area .blog-img div{
+    overflow: hidden;
+}
+.main-area .blog-area .blog-img img{
+    width: 100%;
+    transition: all 2s ease;
+}
+.main-area .blog-area .blog-img img:hover{
+    transform: scale(1.1);
+}
+.main-area .blog-area .blog-img .post-details{
+    background: var(--sky);
+    width: 53%;
+    padding: 1.0rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+}
+.main-area .blog-area .blog-img .post-details span{
+    margin: 0 .5rem;
+}
+.main-area .blog-area .blog-heading h1{
+    font-size: 1.5rem;
+    padding-top: .9rem;
+}
+.main-area .blog-area .blog-desc p{
+    color: #3f4954;
+}
+.main-area .blog-area .read-more-btn button{
+    border-radius: 0px;
+    background: var(--sky);
+    padding: 0.5rem 2.3rem;
+}
+.main-area .blog-area .pagination-area{
+    width: 32%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.main-area .blog-area .pagination-area .prev-page{
+    cursor: pointer;
+    float: left;
+    color: #3f4954;;
+}
+.main-area .blog-area .pagination-area span{
+    cursor: pointer;
+    float: left;
+    margin: 0rem 1rem;
+    background: #3f4954;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    line-height: 33px;
+    color: #ffffff;
+}
+.main-area .blog-area .pagination-area .next-page{
+    cursor: pointer;
+    float: left;
+    color: #3f4954;;
+}
+
+/* SideBar Area */
+
+/* Category Area */
+.main-area .blog-area .categories{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+.main-area .blog-area .categories .category-item{
+    background: var(--sky);
+    padding: 0.2rem 0.6rem;
+    margin-top: .4rem;
+    border-radius: 25px;
+}
+.main-area .blog-area .categories .category-item h6 span{
+    float: right;
+}
+
+/* Popular post area */
+.main-area .blog-area .popular-area .popular-heading{
+    margin-bottom: 4rem;
+}
+.main-area .blog-area .popular-area .popular-post .popular-img div img{
+    width: 100%;
+    transition: all 2s ease;
+}
+.main-area .blog-area .popular-area .popular-post .popular-img div img:hover{
+    transform: scale(1.1);
+}
+
+/* Main area end */
+

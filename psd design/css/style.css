@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+body{
+	color: white;
+}
+header{
+	background: url(../img/homepage-top-banner.png);
+	width: 100%;
+	background-size: cover;
+	float: left;
+}
+
+header img{
+	margin-top: 70px;
+	margin-bottom: 145px;
+}
+
+header nav{
+	float: right;
+	margin-top: 90px;
+}
+
+header nav a{
+	padding-right: 50px;
+	padding-left: 50px;
+	color: white;
+	text-decoration: none;
+}
+.call-section{
+	width: 635px;
+	float: left;
+}
+.call-section h1{
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+	text-indent: 50px;
+	margin: 30px 50px 30px 0px;
+	font-size: 50px; 
+}
+.call-section p{
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.call-section hr{
+	width: 15px;
+	border-top: 2px solid white;
+	margin-bottom: 40px;
+}
+.call-section button{
+	width: 325px;
+    height: 55px;
+    margin-bottom: 285px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+
+.welcome-section{
+	background-color: white;
+	width: 100%;
+	float: left;
+}
+
+.welcome-section-left{
+	width: 100%;
+	float: left;
+}
+
+.welcome-section-left h1{
+	color: #484848;
+	margin-bottom: 45px;
+	margin-top: 200px;
+
+}
+.welcome-section-left hr{
+	width: 15px;
+	margin-bottom: 50px;
+	border-top: 2px solid #484848;
+}
+.welcome-section-left p{
+	color: #484848;	
+}
+
+
+.service{
+	width: 100%;
+	background-color: #28282e;
+	float: left;
+	margin-top: -30px;
+}
+
+.rectangle-one{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 400px;
+}
+.rectangle-two{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	transform: rotate(45deg);
+	float: left;
+	margin-left: -16px;
+    margin-top: -82px;
+}
+.rectangle-three{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	transform: rotate(45deg);
+	float: left;
+	margin-left: -16px;
+    margin-top: -164px;
+}
+.rectangle-four{
+	width: 100px;
+	height: 100px;
+	background-color: #28282e;
+	transform: rotate(45deg);
+	float: left;
+	margin-left: -38px;
+    margin-top: -123px;
+}
+.rectangle-five{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 22px;
+    margin-top: -123px;
+}
+.rectangle-six{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	margin-left: 98px;
+    margin-top: -99px;
+}
+.rectangle-seven{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	margin-left: 205px;
+    margin-top: -208px;
+}
+
+.rectangle-eight{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	transform: rotate(45deg);
+	float: left;
+	margin-left: 237px;
+    margin-top: -27px;
+}
+
+.rectangle-five img{
+	height: 75px;
+    display: block;
+    width: 340px;
+    transform: rotate(-45deg);
+    margin-left: -10px;
+    margin-top: -98px;
+}
+
+.service h2{
+	margin-bottom: 30px;
+	margin-top: 115px;
+
+}
+.service hr{
+	width: 15px;
+	margin-bottom: 50px;
+	border-top: 2px solid white;
+}
+.service p{
+	margin-bottom: 75px;
+}
+.service button{
+	margin-bottom: 135px;
+	width: 140px;
+	height: 60px;
+	border: 2px solid white;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.service img{
+	display: block;
+	float: right;
+	margin-top: -200px;
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: #ef4035;
+}
+
+footer p{
+	text-align: center;
+	margin: 45px 0px;
+}

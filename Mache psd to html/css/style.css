@@ -1,0 +1,504 @@
+/* 
+Autohor
+======
+rakib hossain
+*/
+
+/* 
+Autohor
+======
+1. Global CSS
+2. Header
+3. Main
+4. About Us
+5. Our Service
+6. Quote
+7. Prices
+8. Additional Info
+9. Join Us
+10. News
+11. Additional Info Two
+12. Download
+13. Footer
+
+*/
+
+/* 1. Global CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body{
+	font-family: 'Lato', sans-serif;
+}
+header{
+	padding: 15px 0px;
+}
+section{
+	padding: 50px 0px;
+}
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 20px;
+}
+h6{
+	font-size: 13px;
+}
+p{
+	font-size: 15px;
+}
+.btn-custom{
+	background-color: #ed145b;
+	color: #ffffff;
+	border-radius: 25px; 
+}
+/* 2. Header */
+header{
+	background-color: #f4f4f4;
+	background: url(../img/header-bck.png) no-repeat;
+	background-size: cover;
+}
+.nav-link{
+	color: #ffffff;
+}
+.nav-link:hover{
+	color: #ed145b;
+}
+.navbar{
+	margin-bottom: 100px;
+}
+.main h1{
+	text-align: center;
+	color: #ffffff;
+	font-weight: 200;
+
+}
+.main hr{
+	width: 10%;
+	border: 2px solid #ed145b;
+
+}
+.main p{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 1px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.main button {
+    display: block;
+    margin: 0 auto;
+    padding: 7px 15px;
+    margin-bottom: 105px;
+}
+
+/* 4. About US */
+.about{
+	background-color: #f4f4f4;
+}
+.about-left h2{
+	color: #5a5a5a;
+	width: 60%;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+.about-left hr {
+    margin: 24px 0px;
+    width: 29%;
+    border: 2px solid #ed145b;
+}
+.about-left p{
+	color: #5a5a5a;
+	
+}
+.btn-see-video{
+	background-color: transparent;
+	border: none;
+	color: #ed145b; 
+}
+.about-right{
+	position: relative;
+}
+.mac{
+	position: absolute;
+	bottom: -73px;
+	left: 0;
+}
+/* 5. Our Service */
+.service-heading h2 {
+    color: #5a5a5a;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.service-heading hr{
+	width: 15%;
+	border: 2px solid #ed145b;
+
+}
+.service-heading p{
+    color: #5a5a5a;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 60px;
+} 
+.service-content img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.service-content p {
+    color: #ed145b;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* 6. Quote */
+.quote{
+	background: url(../img/quote-bck.png) no-repeat;
+	background-size: cover;
+}
+.carousel-item p{
+	width: 60%;
+	margin: 0 auto;
+	color: #ffffff;
+	text-align: center;
+}
+.carousel-item .fa{
+	color: #ed145b;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+ /* 7. Prices */
+ .price{
+ 	background-color: #f4f4f4;
+ }
+
+ .price-heading h2{
+ 	color: #5a5a5a;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0px;
+
+ }
+ .price-heading hr{
+ 	width: 15%;
+	border: 2px solid #ed145b;
+
+ }
+ .price-heading p{
+ 	color: #5a5a5a;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 60px;
+
+ }
+ .price-top{
+ 	background-color: #5a5a5a;
+ }
+ .price-top-two{
+ 	background-color: #ed145b; 
+ }
+ .price-top h1{
+ 	color: #ffffff;
+ 	padding-top: 20px;
+ 	text-align: center;
+ }
+  .price-top h6{
+ 	color: #ffffff;
+ 	text-align: center;
+ 	padding-bottom: 85px;
+ }
+ .price-bottom{
+ 	position: relative;
+ 	background-color: #ffffff;
+ 	margin-top: -6px;
+ 	padding-bottom: 50px;
+ }
+.package {
+    position: absolute;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    padding: 1px 25px;
+    color: #5a5a5a;
+    top: -12px;
+    left: 24%;
+    font-size: 16px;
+}
+.price-bottom h6{
+	text-align: center;
+	line-height: 20px;
+	color: #5a5a5a;
+}
+.project{
+	padding-top: 45px;
+}
+
+.btn-buy-now{
+    margin: 0 auto;
+    display: block;
+    padding: 5px 42px;
+    margin-top: 35px;
+}
+/* 8. Additional Info */
+.info{
+	margin: 33px 0px;
+}
+.info h2{
+	text-transform: uppercase;
+	color: #ed145b;
+	font-size: 20px;
+}
+.info p{
+	color: #5a5a5a;
+}
+/* 9. Join Us */
+.join-us{
+	background-color: #ed145b; 
+	padding: 20px 0px;
+}
+.join-us h1{
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.btn-join-us{
+	color: #ed145b;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+/* 10. News */
+.news-heading h2{
+	color: #5a5a5a;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.news-heading hr{
+	width: 15%;
+	border: 2px solid #ed145b;
+}
+.news-heading p{
+	color: #5a5a5a;
+    text-align: center;
+    width: 60%;
+    margin-top: 26px;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+
+}
+.fa-search{
+	position: absolute;
+	color: #ffffff;
+    left: 42%;
+    top: 36%;
+    font-size: 45px;
+}
+.image-hover{
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+	overflow: hidden;
+
+}
+.img-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #eb326f;
+	top: 0;
+	opacity: .7;
+	right: 100%;
+}
+.image-hover:hover .img-hover-content{
+	right: 0;
+
+}
+.news-content h3{
+	color: #5a5a5a;
+    text-transform: uppercase;
+    padding: 25px 0px;
+	
+}
+.news-content p{
+	color: #5a5a5a;
+	margin-bottom: 45px;
+	
+}
+.show p{
+	text-align: center;
+	color: #eb326f;
+
+}
+.fa-angle-down{
+	color: #eb326f;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+/* 11. Additional Info Two */
+.additional-info-two{
+	background: url(../img/addi-info-two-bck.png) no-repeat;
+	background-size: cover;
+}
+.additional-info-two h2{
+	color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0px;
+
+}
+.additional-info-two hr{
+	width: 18%;
+	border: 2px solid #ed145b;
+
+}
+.additional-info-two p{
+	color: #ffffff;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 60px;
+
+}
+.btn-show-more{
+	display: block;
+	margin: 0 auto;
+	padding: 5px 17px;
+}
+
+/* 12. Download */
+.download h2{
+	color: #5a5a5a;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 63%;
+    font-size: 27px;
+
+}
+.download hr{
+	margin-right: 55%;
+	border: 2px solid #ed145b;
+}
+.download p{
+	color: #5a5a5a;
+    width: 60%;
+    margin-top: 26px;
+    margin-bottom: 60px;
+
+}
+.btn-download{
+	display: block;
+	margin: 0 auto;
+	padding: 5px 17px;
+}
+
+/* 13. Footer */
+footer{
+	background-color: #2b2b2b;
+}
+footer h6{
+	padding: 20px 0px;
+	color: #ffffff;
+}
+
+
+/* For Mobile Device */
+@media (min-width: 0px) and (max-width: 500px){
+	.main h1 {
+	    font-size: 20px;
+	}
+	.main p {
+	    letter-spacing: 0px;
+	    margin-top: 23px;
+	    margin-bottom: 38px;
+	    font-size: 14px;
+	}
+	.about-left h2 {
+	    width: 100%;
+	    line-height: 40px;
+	    margin-bottom: 30px;
+	}
+	.btn-see-video {
+	    padding-bottom: 242px;
+	}
+	.package {
+	    left: 20%;
+	}
+	.join-us h1 {
+	    font-size: 17px;
+	}
+	.btn-join-us {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.news-heading p {
+	    margin: 0 auto;
+	    margin-bottom: 40px;
+	    
+	}
+	.fa-angle-down {
+	    text-align: center;
+	}
+	.additional-info-two p {
+	    width: 100%;
+	    margin-bottom: 40px;
+	}
+	.download h2 {
+	    width: 100%;
+	}
+	.download p {
+	    width: 100%;
+	    margin-bottom: 40px;
+	}
+
+}
+/* Tablet Device */
+@media (min-width: 500.01px) and (max-width: 768px){
+	.package {
+	    top: -7px;
+	    left: 2%;
+	    font-size: 11px;
+	}
+
+	.btn-buy-now {
+	    padding: 0px 4px;
+	    margin-top: 25px;
+	}
+	.btn-join-us {
+	    padding: 7px 12px;
+	}
+	.join-us h1 {
+	    font-size: 20px;
+	}
+	.info h2 {
+	    font-size: 15px;
+	}
+	.news-heading p {
+	    width: 100%;
+	}
+	.download h2 {
+	    width: 100%;
+	}
+	.download p{
+	    width: 100%;
+	}
+
+
+}

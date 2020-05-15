@@ -1,0 +1,658 @@
+/*
+Author: Md Rakib Hossain
+Author Info:
+------------
+mail: hrakib435@gmail.com
+number: 01981614829 
+*/
+/*
+==========index========
+01. Global CSS
+02. Header section
+03. Hero Section
+04. About us section
+05. Practice Area section
+06. Lawyers section
+07. Client Say Section
+08. Publication section
+09. FAQ section
+10. Contact section
+11. Footer Section
+*/
+
+/* 01. Global CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:100,100i,200,200i,300,300i,400,500,600,700');
+section{
+	padding: 50px 0px;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	color: #111111;
+	font-weight: 600;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+}
+h4{
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+}
+h5{
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+}
+h6{
+
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #111111;
+
+}
+a{
+
+}
+.btn-custom{
+	height: 44px;
+    background-color: #e8bf5d;
+    padding: 0px 38px;
+    border-radius: 25px;
+    color: #111111;
+}
+.btn-custom:hover{
+	background-color: #111111;
+	color: #e8bf5d;
+}
+.fa-bars{
+	color: #e8bf5d;
+}
+/* 02. Header section */
+header{
+	background-color: #ffffff;
+}
+.navbar-nav .nav-item{
+	padding: 0px 8px;
+}
+.menu-item{
+	color: #111111;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.menu-item:hover{
+	color: #111111;
+	text-decoration: none;
+    border-bottom: 2px solid #e8bf5d;
+}
+.navbar-nav{
+	padding: 30px 0px;
+    
+}
+
+/* 03. Hero Section */
+.hero-section{
+	background: url(../img/hero-img.png) no-repeat;
+	background-size: cover;
+}
+.hero-content{
+	margin-top: 380px;
+	margin-bottom: 120px;
+	
+}
+.hero-design{
+	border-left: 2px solid #e8bf5d;
+	padding: 0px 10px;
+}
+.hero-content h1{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 30px;
+}
+.hero-content p{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 22px;
+}
+.hero-content button{
+	margin-left: 30%;
+}
+
+/* 04. About us section */
+.about-heading{
+	background: url(../img/one.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.about-heading h5 {
+    color: #a3a3a3;
+    line-height: 26px;
+    margin-bottom: 75px;
+}
+.expertise h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.expertise p{
+	color: #a3a3a3;
+    line-height: 26px;
+}
+.history h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.history-content h2{
+	padding-top: 12px;
+    font-weight: 600;
+}
+.history-content h5{
+	color: #a3a3a3;
+    line-height: 26px;
+}
+
+/* 05. Practice Area section */
+.practice{
+	background: url(../img/practice-bck.png) no-repeat;
+	background-size: cover;
+}
+.practice-heading{
+	background: url(../img/two.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.practice-heading h1{
+	color: #ffffff;
+}
+.practice-heading h5{
+	color: #ffffff;
+}
+.practice-content{
+	margin-top: 75px;
+}
+.practice-content h1 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.practice-content p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+.practice-content .fa{
+	color: #e8bf5d;
+	font-size: 40px;
+}
+/* 06. Lawyers section */
+.lawyers-heading{
+	background: url(../img/three.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.lawyers-heading h5{
+	color: #111111;
+}
+.lawyers-content img{
+	margin-bottom: 20px;
+	margin-top: 75px;
+}
+.lawyers-content h2{
+	font-size: 20px;
+    font-weight: 600;
+}
+.lawyers-content h5{
+	font-size: 15px;
+	color: #111111;
+}
+/*07. Client Say Section*/
+.client-say{
+	background: url(../img/client-bck.png) no-repeat;
+	background-size: cover;
+}
+.client-say-heading{
+	background: url(../img/four.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.client-say-heading h1{
+	color: #ffffff;
+}
+.client-say-heading h5{
+	color: #ffffff;
+}
+.client-say-content{
+	margin-top: 50px;
+}
+.client-say-content h1{
+	margin-top: 75px;
+	color: #535252;
+}
+.client-say-content h5{
+	color: #535252;
+}
+.client-say-content p{
+	color: #ffffff;
+	line-height: 30px;
+	font-size: 14px;
+}
+.client-say-content-right{
+	padding-left: 50px;
+	position: relative;
+}
+.quote{
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+.fa-quote-left{
+	font-size: 30px;
+	color: #535252;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -23px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators li{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+/* 08. Publication section */
+.publication-heading{
+	background: url(../img/five.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.publication-heading h5{
+	color: #b7b7b7;
+}
+.publication-content{
+	margin-top: 75px;
+}
+.card-custom{
+	border: none;
+	border-bottom: 2px solid #e8bf5d;
+}
+.card-body h2{
+	font-size: 25px;
+}
+.card-body h5{
+	font-size: 15px;
+    color: #b7b7b7;
+}
+.card-body p {
+    margin-top: 50px;
+    color: #b7b7b7;
+    margin-bottom: 25px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+.comment{
+	padding-left: 20px;
+	position: relative;
+}
+.fa-comments{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.share{
+	padding-left: 20px;
+	position: relative;
+}
+.fa-share{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* 09. FAQ section */
+.faq-section{
+	background-color: #111111;
+}
+.faq-heading{
+	background: url(../img/six.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.faq-heading h1,h5{
+color: #ffffff;
+}
+.faq-content{
+	margin-top: 75px;
+}
+.faq-content h2 {
+    border-bottom: 1px solid #e8bf5d;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.faq-content-right {
+    margin-top: 75px;
+    width: 97%;
+    background-color: #e8bf5d;
+}
+.faq-content-right p {
+	padding: 10px 10px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+/* 10. Contact section */
+.contact-heading{
+	background: url(../img/seven.png) no-repeat;
+	border-left: 2px solid #e8bf5d;
+    padding: 0px 10px;
+    background-size: 10% 100%;
+}
+.contact-heading h5{
+ 	color: #111111;
+}
+.contact-content{
+	box-shadow: 2px 2px 25px #111111;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+.form-group{
+	margin-top: 30px;
+}
+.form-control{
+	margin-left: 10%;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #b7b7b7;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.textarea {
+    color: #b7b7b7;
+    margin-left: 10%;
+    text-indent: 8px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #b7b7b7;
+    height: 90px;
+    margin-top: 10px;
+}
+.btn-custom{
+	margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.google-map iframe {
+    width: 90%;
+    height: 310px;
+    margin-top: 30px;
+    margin-left: 8px;
+    box-shadow: -8px 8px 0px #e8bf5d;
+}
+
+/* 11. Footer Section */
+footer{
+	background-color: #111111;
+}
+.copyright p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.social{
+	margin: 15px 0px;
+}
+.social ul li{
+	list-style: none;
+	display: inline;
+	padding: 0px 5px;
+}
+.social ul li a{
+	color: #b7b7b7;
+}
+
+
+/* Media Query*/
+/* Mobile Device*/
+@media (min-width: 0px) and (max-width: 500px){
+	/*Global*/
+	section{
+	padding: 20px 0px;
+}
+	h1{
+	    font-size: 20px;
+	}
+	h5{
+		font-size: 15px;
+	}
+	.btn-custom{
+		height: 44px;
+	    background-color: #e8bf5d;
+	    padding: 0px 38px;
+	    border-radius: 25px;
+	    color: #111111;
+	}
+	/* 03. Hero Section */
+	.hero-section{
+		background-size: 100%;
+	}
+	.hero-content{
+		margin-top: 5px;
+		margin-bottom: 5px;	
+	}
+	.hero-design{
+		border-left: 2px solid #e8bf5d;
+		padding: 0px 10px;
+	}
+	.hero-content h1{
+	    color: #ffffff;
+	    font-weight: 300;
+	    font-size: 26px;
+	    line-height: 0px;
+	}
+	.hero-content p{
+	    font-weight: 100;  
+	}
+	.hero-content button{
+	    margin: 0 auto;
+	    height: 30px;
+	    width: 126px;
+	    padding-left: 20px;
+	}
+	/* 04. About us section */
+	.about-heading h5 {
+	    line-height: 15px;
+	    margin-bottom: 30px;
+	}
+	.expertise h1 {
+		font-weight: 600;
+		font-size: 20px;
+	    margin-bottom: 5px;
+	    margin-top: 10px;
+	}
+	.expertise p{
+		line-height: 15px;
+	    font-size: 12px;
+	}
+	.history h1{
+	    font-size: 20px;
+	    font-weight: 600;
+	    margin-bottom: 0px;
+	}
+	.history-content h2 {
+	    padding-top: 3px;
+	    font-weight: 300;
+	    font-size: 15px;
+	}
+	.history-content h5 {
+	    line-height: 15px;
+	    font-size: 12px;
+	}
+	/* 05. Practice Area section */
+	.practice-heading h1{
+		color: #ffffff;
+	}
+	.practice-heading h5{
+		color: #ffffff;
+		line-height: 15px;
+	}
+	.practice-content{
+		margin-top: 10px;
+	}
+	.practice-content h1 {
+	    color: #ffffff;
+	    font-size: 16px;
+	    margin-bottom: 8px;
+	}
+	.practice-content p{
+	    color: #ffffff;
+	    font-size: 12px;
+	    font-weight: 200;
+	    padding-bottom: 8px;
+	}
+	/* 06. Lawyers section */
+	.lawyers-heading h5{
+		color: #111111;
+	}
+	.lawyers-content img{
+		margin-bottom: 20px;
+		margin-top: 75px;
+	}
+	.lawyers-content h2{
+		font-size: 20px;
+	    font-weight: 600;
+	}
+	.lawyers-content h5{
+		font-size: 15px;
+		color: #111111;
+	}
+	/*07. Client Say Section*/
+
+	.client-say-content h1{
+		margin-top: 10px;
+	}
+	.client-say-content h5{
+		color: #535252;
+	}
+	.client-say-content img{
+		width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	}
+	.client-say-content p{
+		margin-top: 10px;
+		line-height: 15px;
+    	font-size: 14px;
+	}
+
+
+	/* 08. Publication section */
+	.publication-content{
+		display: block;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.card-custom{
+		margin: 0 auto;
+	}
+	.card-body h2{
+		font-size: 20px;
+	}
+	.card-body h5{
+		font-size: 15px;
+	    color: #b7b7b7;
+	}
+	.card-body p {
+	    margin-top: 20px;
+	    color: #b7b7b7;
+	    margin-bottom: 25px;
+	    line-height: 15px;
+	    letter-spacing: 1px;
+	}
+
+
+}
+
+
+
+
+
+/* Tablet Device*/
+@media (min-width: 500.01px) and (max-width: 768px){
+	/* 03. Hero Section */
+	.hero-section{
+		background-size:100%;
+	}
+	.hero-content{
+		margin-top: 20px;
+		margin-bottom: 20px;	
+	}
+	.hero-design{
+		border-left: 2px solid #e8bf5d;
+		padding: 0px 10px;
+	}
+	.hero-content h1{
+	    color: #ffffff;
+	    font-weight: 600;
+	    font-size: 30px;
+	    line-height: 0px;
+	}
+	.hero-content p{
+	    font-weight: 300;  
+	}
+	.hero-content button{
+	    margin: 0 auto;
+	    height: 30px;
+	    width: 126px;
+	    padding-left: 20px;
+	}
+/*Publication*/
+	.card-body h2{
+		font-size: 20px;
+	}
+	.card-body h5{
+		font-size: 10px;
+	    color: #b7b7b7;
+	}
+	.card-body p {
+	    margin-top: 20px;
+	    color: #b7b7b7;
+	    margin-bottom: 25px;
+	    line-height: 15px;
+	    letter-spacing: 1px;
+	}
+
+}

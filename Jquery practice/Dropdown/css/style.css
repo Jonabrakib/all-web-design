@@ -1,0 +1,22 @@
+section{
+	padding-top: 100px;
+}
+.showLess img{
+	display: block;
+	margin: 0 auto;
+}
+
+.showLess h5{
+	text-align: center;
+}
+.showMore img{
+	display: block;
+	margin: 0 auto;
+}
+
+.showMore h5{
+	text-align: center;
+}
+p{
+	text-align: center;
+}

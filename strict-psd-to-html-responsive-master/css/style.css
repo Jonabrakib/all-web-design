@@ -1,0 +1,331 @@
+/* Author
+
+*/
+/*
+Index
+
+1. Global css
+2. header section
+3. Hero section
+4. Pure Design section
+5. Feature section
+6. Gallery
+7. Contact section
+8. Footer
+
+*/
+
+/* Global css*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body{
+	font-family: 'Lato', sans-serif;
+}
+section{
+	padding: 50px 0px;
+}
+h1{
+	font-size: 65px;
+}
+h2{
+	font-size: 26px;
+	 font-weight: 500;
+}
+h3{
+	font-size: 20px;
+}
+p{
+	font-size: 15px;
+}
+.btn-custom{
+	border-radius: 3px;
+	border: 1px solid #15a4fa;
+	color: #ffffff;
+	background-color: transparent;
+	padding: 6px 20px;
+}
+
+/* Header Seciton*/
+header{
+	background-color: #f9f9f9;
+}
+.logo{
+	padding: 50px 0px;
+}
+/* Hero Section */
+.hero-section{
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	color: #ffffff;
+}
+.hero-section h1{
+	text-align: center;
+	margin-top: 123px;
+    font-weight: 600;
+
+}
+.hero-section hr{
+	width: 50%;
+	border: 2px solid #15a4fa;
+	
+}
+.hero-section p{
+	text-align: center;
+    margin-bottom: 45px;
+	
+}
+.btn-call {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.fa-angle-down{
+	text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+/* Pure Design section */
+.pure-design{
+	background-color: #f9f9f9;
+}
+.pure-design h2{
+	text-align: center;
+    margin-bottom: 18px;
+
+}
+.pure-design p {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: #565151;
+}
+/* Feature section */
+.fearture h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fearture p{
+	color: #565151;
+	text-align: center;
+}
+.fearture i{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.fa-mobile{
+    background-color: #15a4fa;
+    font-size: 64px;
+    color: #ffffff;
+    text-shadow: 2px 2px #7c818a;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 78px;
+}
+.fa-paper-plane{
+	background-color: #15a4fa;
+    font-size: 64px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 78px;
+    color: #ffffff;
+    text-shadow: 2px 2px #7c818a;
+
+}
+.fa-bullhorn{
+	background-color: #15a4fa;
+    font-size: 64px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 78px;
+    color: #ffffff;
+    text-shadow: 2px 2px #7c818a;
+
+}
+/* Gallery */
+.gallery{
+	background-color: #f9f9f9;
+}
+.gallery h2{
+	text-align: center;
+
+}
+.gallery p{
+	text-align: center;
+	color: #565151;
+	margin-bottom: 30px;
+	margin-top: 20px;	
+}
+.gallery-bottom{
+	margin-top: 20px;
+}
+.img-hover{
+	position: relative;
+	overflow: hidden;
+}
+.img-hover-content{
+	position: absolute;
+	width: 103%;
+	height: 100%;
+	background-color: #1e9ded;
+	opacity: .7;
+}
+.fa-search-plus{
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	border: 1px solid white;
+	width: 25px;
+	height: 25px;
+	padding-top: 4px;
+	text-align: center;
+	color: white;
+}
+.fa-link{
+	position: absolute;
+	top: 45%;
+	left: 55%;
+	border: 1px solid white;
+	width: 25px;
+	height: 25px;
+	padding-top: 4px;
+	text-align: center;
+	color: white;
+}
+.img-hover:hover .img-hover-content{
+	cursor: pointer;
+	overflow: none;
+	top: 0;
+}
+
+/* 7. Contact section */
+.contact{
+	background: url(../img/stay-bck.png) no-repeat;
+	background-size: cover;
+}
+.contact h2{
+	text-align: center;
+	color: #ffffff;
+
+}
+.contact p{
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+form{
+	width: 60%;
+	margin: 0 auto;
+}
+.form-control{
+	margin: 15px 0px;
+	background-color: transparent;
+	height: 50px;
+}
+textarea.form-control {
+    height: 115px;
+}
+.form-check-label{
+	color: #ffffff;
+}
+.btn-send{
+	padding: 6px 43px;
+	float: right;
+    margin-top: -33px;
+
+}
+/* Footer */
+footer{
+	margin: 10px 0px;
+}
+ul li{
+	list-style: none;
+    list-style: none;
+    display: inline;
+    margin-left: 7px;
+}
+ul li a{
+	color: #ffffff;
+}
+ul li a:hover{
+	color: #ffffff;
+}
+.fa-facebook {
+    background-color: #15a4fa;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    line-height: 23px;
+}
+.fa-twitter {
+    background-color: #15a4fa;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    line-height: 23px;
+}
+.fa-google-plus {
+    background-color: #15a4fa;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    line-height: 23px;
+}
+.fa-linkedin {
+    background-color: #15a4fa;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    line-height: 23px;
+}
+.social{
+	float: right;
+	margin-top: 7px;
+}
+.copyright{
+	float: left;
+	margin-top: 7px;
+}
+
+/* Media Query */
+/* Mobile Device */
+@media (min-width: 0px) and (max-width: 500px){
+	section{
+		padding: 15px 0px;
+	}
+	.logo{
+		padding: 15px 0px;
+	}
+	.hero-section {
+	    background-size: 100%;
+	}
+	.hero-section h1 {
+	    margin-top: 0px;
+	    font-weight: 400;
+	    font-size: 25px;
+	}
+	.hero-section hr{
+		border: 1px solid #15a4fa;
+		margin: 0px auto;
+	}
+	.hero-section p {
+	    margin-bottom: 12px;
+	}
+	.btn-call {
+	    margin-bottom: 28px;
+	    margin-top: 23px;
+	    padding: 3px 10px;
+	}
+	.fa-angle-down {
+	    margin-bottom: 0px;
+	}
+	.pure-design p {
+	    width: 100%;
+	}
+	.img-hover {
+	    margin-bottom: 20px;
+	}
+}
